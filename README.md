@@ -1,6 +1,6 @@
 # Cadastro de Usuário
 
-Este é um projeto de uma aplicação de cadastro de usuário, desenvolvida com React. Ele integra com um backend simples fornecido por um arquivo chamado db.json, permitindo a adição, exclusão, alteração e listagem de todos os cadastros possíveis.
+Este é um projeto de uma aplicação de cadastro de usuário, desenvolvida com React. Ele integra com um backend simples fornecido por um arquivo chamado db.json, permitindo a adição, exclusão, alteração e listagem (CRUD) de todos os cadastros possíveis.
 
 ## Tecnologias Utilizadas
 
