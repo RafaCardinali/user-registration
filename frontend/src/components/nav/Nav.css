@@ -1,0 +1,38 @@
+.menu-area {
+    background-color: var(--bg-dark);
+    box-shadow: 
+        .125rem 0 .625rem 0 rgba(0, 0, 0, 0.12),
+        .125rem 0 .625rem 0 rgba(0, 0, 0, 0.09);
+}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: .9375rem;
+}
+
+.menu a:hover {
+    background: linear-gradient(to right, rgb(192, 57, 43), rgb(142, 68, 173));
+}
+
+@media(max-width: 768px) {
+    .menu {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    .menu a {
+        display: inline;
+        padding: .625rem;
+        margin: 0;
+
+    }
+
+    .menu {
+        height: 100%;
+        justify-content: space-around;
+    }
+}
